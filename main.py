@@ -7,7 +7,7 @@ class Master_Data:
         self.order_entities = ['inventoryonhand']
 
     def create_data(self):
-        create_data(self.order_entities, '1000', 1)
+        create_data(self.order_entities, '10', 1)
 
 
 x = Master_Data()
