@@ -1,0 +1,42 @@
+{
+
+  "locations": {
+    "columns": ["LOCATION",
+                "LOCATIONNAME",
+                "LOCATIONTYPE",
+                "COUNTRY",
+                "POSTALCODE",
+                "CITY",
+                "ADDRESS",
+                "LATITUDE",
+                "LONGITUDE",
+                "ACTIVEFROM",
+                "ACTIVEUPTO"]
+  },
+  "itemhierarchylevelmembers": {
+    "columns": ["PRODUCTGROUPID",
+                "PARENTGROUPID",
+                "DESCRIPTION"]
+  },
+  "items": {
+    "columns": [
+      "PRODUCTID",
+      "PRODUCTNAME",
+      "PRODUCTDESC",
+      "PRODUCTGROUPID",
+      "ACTIVEFROM",
+      "ACTIVEUPTO",
+      "UNITRETAILPRICE",
+      "UNITCOST",
+      "ProductUOM",
+      "DEPT",
+      "CATEGORY",
+      "SUBCATEGORY"
+    ]
+  },
+  "inventoryonhand": {
+    "columns": ["PRODUCTID", "LOCATION","AVAILABLEDATE", "UNITOFMEASURE","QUANTITY", "EXPIRATIONDAY","TIMESTAMP", "ACTIONCODE"],
+    "columns_position": [0,1,2,3,4,6],
+    "columns_data": ["PRODUCTID", "LOCATION","AVAILABLEDATE", "UNITOFMEASURE","QUANTITY","TIMESTAMP"]
+  }
+}

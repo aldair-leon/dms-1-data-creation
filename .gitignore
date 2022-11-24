@@ -1,0 +1,12 @@
+data/
+mappingDocs/
+resources/inventoryonhand-TEST.csv
+resources/itemhierarchylevelmembers-MASTER.csv
+resources/items-MASTER.csv
+resources/measurements-MASTER.csv
+resources/locations-MASTER.csv
+resources/inventoryonhand-TRANSACTIONAL.csv
+.idea/
+__pycache__/
+
+
